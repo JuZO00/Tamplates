@@ -3,7 +3,7 @@
   z-index: 1;
   padding: 219px 60px;
   margin-bottom: 110px;
-  background-image: url(../../img/Hero@1x.png);
+  background-image: url(./../img/Hero@1x.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../img/Hero@2x.png);
+      url(./../img/Hero@2x.png);
   }
 }
 .hero__div {
