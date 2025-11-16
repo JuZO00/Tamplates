@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  z-index: 1;
+  padding: 219px 60px;
+  margin-bottom: 110px;
+  background-image: url(../../img/Hero@1x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to top,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/Hero@2x.png);
+  }
+}
+.hero__div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__text {
+  @extend %min-text;
+  color: $hero-text-fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.hero__button {
+  padding: 13px 36px;
+  border: none;
+  border-radius: 30px;
+  background: $button-blue-4985ff;
+  font-family: "Montserrat", sans-serif;
+  @extend%min-text;
+  font-weight: 500;
+  text-align: center;
+  color: $hero-text-fff;
+}

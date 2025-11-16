@@ -1,0 +1,55 @@
+.is-hidden {
+  display: none;
+}
+.burger__menu--open {
+  background: none;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  padding: 12px 8px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.burger__menu--close {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  display: inline-block;
+  padding: 11px 11px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.menu__open__svg {
+  width: 34px;
+  height: 26px;
+  fill: $hero-text-fff;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.menu__close__svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+  fill: $hero-text-fff;
+}
+.burger__mob {
+  position: fixed;
+  background-color: $hero-text-fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 40px;
+  z-index: 3;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}

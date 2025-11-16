@@ -1,0 +1,42 @@
+.standart {
+  margin-bottom: 70px;
+}
+.standart__text {
+  text-align: left;
+  margin-bottom: 42px;
+  @extend %min-text;
+  color: $grey-999;
+}
+.standart__link {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: $button-blue-4985ff;
+  margin-bottom: 100px;
+}
+.standart__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+.standart__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.standart__item__div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.standart__item__text {
+  @extend %min-text;
+  color: $grey-999;
+}
+.standart__svg {
+  width: 30px;
+  height: 30px;
+  fill: $button-blue-4985ff;
+}
