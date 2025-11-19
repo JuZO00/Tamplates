@@ -1,0 +1,14 @@
+.our__projects {
+  margin-bottom: 130px;
+}
+.our__projects__text {
+  @extend%min-text;
+  color: $grey-999;
+  margin-bottom: 60px;
+}
+.our__projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}

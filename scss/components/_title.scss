@@ -35,3 +35,22 @@
   @extend%title-text;
   margin-bottom: 30px;
 }
+.specialization__pretitle {
+  @extend%specializ-title;
+  color: $black-000;
+  margin-bottom: 15px;
+}
+.specialization__span__pretitle {
+  @extend%specializ-title;
+  color: $button-blue-4985ff;
+}
+.our__projects__title {
+  @extend%title-text;
+  color: $black-000;
+  margin-bottom: 28px;
+}
+.videos__title {
+  @extend%title-text;
+  color: $hero-text-fff;
+  margin-bottom: 30px;
+}

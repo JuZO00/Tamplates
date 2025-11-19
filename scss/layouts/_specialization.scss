@@ -1,12 +1,42 @@
-.specialization__div {
+.specialization {
   position: relative;
+  margin-bottom: 1645px;
+}
+.specialization__div {
   background-color: $specialization-c4c4c4;
   background: linear-gradient(90deg, #504dc2 0%, #5f12d0 100%);
   padding-top: 60px;
   padding-bottom: 160px;
 }
-.specialization__img {
+.specialization__list {
   position: absolute;
-  top: 450px;
+  display: block;
+  top: 1125px;
+  left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 60px;
+}
+.specialization__img {
+  margin-bottom: 25px;
+}
+.specialization__text {
+  @extend%min-text;
+  color: $grey-999;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.specialization__link {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: $button-blue-4985ff;
+}
+.line__spec {
+  border: 1px solid $specialize-e0e0e0;
+  width: 100%;
+  margin-bottom: 60px;
 }

@@ -1,0 +1,43 @@
+.videos {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  margin-bottom: 110px;
+  background-image: url(./../img/back\ videosec@1x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to top,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(./../img/back\ videosec@2x.png);
+  }
+}
+.videos__text {
+  @extend%min-text;
+}
+.videos__div__img {
+  position: absolute;
+  display: block;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.videos__img {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+.videos__play {
+  width: 50%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
