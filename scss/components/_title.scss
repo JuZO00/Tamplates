@@ -54,3 +54,8 @@
   color: $hero-text-fff;
   margin-bottom: 30px;
 }
+.subscribe__title {
+  @extend%specializ-title;
+  color: $black-000;
+  margin-bottom: 20px;
+}

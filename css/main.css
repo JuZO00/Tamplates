@@ -1,4 +1,4 @@
-.videos__text, .our__projects__text, .specialization__text, .standart__item__text, .standart__text, .services__button, .services__item__text, .services__text, .hero__button, .hero__text {
+.subscribe__mini__text, .subscribe__button, .subscribe__input, .subscribe__text, .videos__text, .our__projects__text, .specialization__text, .standart__item__text, .standart__text, .services__button, .services__item__text, .services__text, .hero__button, .hero__text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -11,7 +11,7 @@
   line-height: 53px;
 }
 
-.specialization__span__pretitle, .specialization__pretitle {
+.subscribe__title, .specialization__span__pretitle, .specialization__pretitle {
   font-weight: 600;
   font-size: 18px;
 }
@@ -208,6 +208,11 @@ body {
 .videos__title {
   color: #fff;
   margin-bottom: 30px;
+}
+
+.subscribe__title {
+  color: #000;
+  margin-bottom: 20px;
 }
 
 .hero {
@@ -484,6 +489,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 250px;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .videos {
@@ -495,7 +501,7 @@ body {
 .videos__div__img {
   position: absolute;
   display: block;
-  top: 89%;
+  top: 388px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -515,4 +521,54 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.subscribe__text {
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.subscribe__email__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0;
+  margin-bottom: 35px;
+}
+
+.subscribe__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 489px;
+  height: 45px;
+  padding: 13px 33px;
+  padding-right: 172.11px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999;
+}
+
+.subscribe__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 30px 30px 0;
+  padding: 10px 26px;
+  background: #4985ff;
+  border: none;
+  color: #fff;
+  font-weight: 500px;
+}
+
+.subscribe__mini__text {
+  font-size: 13px;
+  line-height: 21px;
+  color: #999;
+  margin-bottom: 155px;
 }
