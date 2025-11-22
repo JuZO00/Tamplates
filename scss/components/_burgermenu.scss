@@ -38,7 +38,7 @@
   display: block;
   width: 18px;
   height: 18px;
-  fill: $hero-text-fff;
+  fill: $black-000;
 }
 .burger__mob {
   position: fixed;
@@ -47,9 +47,21 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 48px 40px;
+  padding: 300px 40px;
   z-index: 3;
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+.nav__list {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+.nav__link {
+  @extend%min-text;
+  font-size: 36px;
+  font-weight: 500;
+  color: $grey-999;
 }

@@ -1,4 +1,4 @@
-.subscribe__mini__text, .subscribe__button, .subscribe__input, .subscribe__text, .videos__text, .our__projects__text, .specialization__text, .standart__item__text, .standart__text, .services__button, .services__item__text, .services__text, .hero__button, .hero__text {
+.footer__bottom__text, .footer__contact__link, .subscribe__mini__text, .subscribe__button, .subscribe__input, .subscribe__text, .videos__text, .our__projects__text, .specialization__text, .standart__item__text, .standart__text, .services__button, .services__item__text, .services__text, .hero__button, .hero__text, .nav__link {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -11,7 +11,7 @@
   line-height: 53px;
 }
 
-.subscribe__title, .specialization__span__pretitle, .specialization__pretitle {
+.footer__contact__title, .subscribe__title, .specialization__span__pretitle, .specialization__pretitle {
   font-weight: 600;
   font-size: 18px;
 }
@@ -131,7 +131,7 @@ body {
   display: block;
   width: 18px;
   height: 18px;
-  fill: #fff;
+  fill: #000;
 }
 
 .burger__mob {
@@ -141,13 +141,33 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 48px 40px;
+  padding: 300px 40px;
   z-index: 3;
 }
 @media screen and (min-width: 768px) {
   .burger__mob {
     display: none;
   }
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.nav__link {
+  font-size: 36px;
+  font-weight: 500;
+  color: #999;
 }
 
 .hero__title {
@@ -213,6 +233,11 @@ body {
 .subscribe__title {
   color: #000;
   margin-bottom: 20px;
+}
+
+.footer__contact__title {
+  color: #000;
+  margin-bottom: 35px;
 }
 
 .hero {
@@ -402,8 +427,8 @@ body {
 }
 
 .specialization {
-  position: relative;
-  margin-bottom: 1645px;
+  padding-bottom: 1560px;
+  margin-bottom: 85px;
 }
 
 .specialization__div {
@@ -414,13 +439,17 @@ body {
   padding-bottom: 160px;
 }
 
+.specialization__div__buttandul {
+  position: relative;
+}
+
 .specialization__list {
   position: absolute;
   display: block;
-  top: 1125px;
+  top: 121px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -563,7 +592,7 @@ body {
   background: #4985ff;
   border: none;
   color: #fff;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .subscribe__mini__text {
@@ -571,4 +600,67 @@ body {
   line-height: 21px;
   color: #999;
   margin-bottom: 155px;
+}
+
+.footer__contact__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.footer__contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.footer__contact__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contact__link {
+  color: #999;
+}
+
+.footer__contact__email__icon {
+  width: 15px;
+  height: 12px;
+  fill: #999;
+  margin-right: 15px;
+}
+
+.footer__contact__phone__icon {
+  width: 15px;
+  height: 15px;
+  fill: #999;
+  margin-right: 15px;
+}
+
+.footer__contact__map__icon {
+  width: 15px;
+  height: 15px;
+  fill: #999;
+  margin-right: 15px;
+}
+
+.footer__bottom__text {
+  font-size: 13px;
+  color: #999;
 }

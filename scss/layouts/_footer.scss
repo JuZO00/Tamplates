@@ -1,0 +1,42 @@
+.footer__contact__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.footer__contact__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.footer__contact__div {
+  display: flex;
+  align-items: center;
+}
+.footer__contact__link {
+  @extend%min-text;
+  color: $grey-999;
+}
+.footer__contact__email__icon {
+  width: 15px;
+  height: 12px;
+  fill: $grey-999;
+  margin-right: 15px;
+}
+.footer__contact__phone__icon {
+  width: 15px;
+  height: 15px;
+  fill: $grey-999;
+  margin-right: 15px;
+}
+.footer__contact__map__icon {
+  width: 15px;
+  height: 15px;
+  fill: $grey-999;
+  margin-right: 15px;
+}
+.footer__bottom__text {
+  @extend%min-text;
+  font-size: 13px;
+  color: $grey-999;
+}
