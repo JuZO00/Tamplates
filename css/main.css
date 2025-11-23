@@ -1,4 +1,4 @@
-.footer__bottom__text, .footer__contact__link, .subscribe__mini__text, .subscribe__button, .subscribe__input, .subscribe__text, .videos__text, .our__projects__text, .specialization__text, .standart__item__text, .standart__text, .services__button, .services__item__text, .services__text, .hero__button, .hero__text, .nav__link {
+.footer__bottom__text, .footer__contact__link, .subscribe__mini__text, .subscribe__button, .subscribe__input, .subscribe__text, .videos__text, .our__projects__text, .specialization__text, .standart__item__text, .standart__text, .services__button, .services__item__text, .services__text, .hero__button, .hero__text, .nav__link__link, .nav__link {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -162,12 +162,35 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 40px;
+  margin-bottom: 80px;
 }
 
 .nav__link {
   font-size: 36px;
   font-weight: 500;
   color: #999;
+}
+
+.nav__list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.nav__link__link {
+  font-size: 14px;
+  color: #999;
+  margin-right: 4px;
+}
+
+.nav__item__svg {
+  width: 10px;
+  height: 10px;
+  fill: #999;
 }
 
 .hero__title {

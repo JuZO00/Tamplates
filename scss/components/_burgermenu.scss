@@ -58,10 +58,27 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 40px;
+  margin-bottom: 80px;
 }
 .nav__link {
   @extend%min-text;
   font-size: 36px;
   font-weight: 500;
   color: $grey-999;
+}
+.nav__list__link {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.nav__link__link {
+  @extend%min-text;
+  font-size: 14px;
+  color: $grey-999;
+  margin-right: 4px;
+}
+.nav__item__svg{
+  width: 10px;
+  height: 10px;
+  fill: $grey-999;
 }
