@@ -14,6 +14,15 @@
   </head>
   <body>
     <header class="header container">
+      <nav class="header__navigation">
+        <ul class="header__list">
+          <li class="header__item"><a href="" class="header__link">Головна</a></li>
+          <li class="header__item"><a href="" class="header__link">Наші проекти</a></li>
+          <li class="header__item"><a href="" class="header__link">Послуги</a></li>
+          <li class="header__item"><a href="" class="header__link">Новини</a></li>
+          <li class="header__item"><a href="" class="header__link">Контакти</a></li>
+        </ul>
+      </nav>
       <button class="burger__menu--open" type="button" data-mob-open>
         <svg class="menu__open__svg">
           <use
@@ -144,13 +153,24 @@
     </section>
     <section class="standart">
       <div class="container">
-        <h2 class="standart__title">Високі стандарти розробки</h2>
-        <p class="standart__text">
-          Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
-          веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
-          з початку XVI ст.
-        </p>
-        <a href="" class="standart__link">Детальніше про компанію</a>
+        <div class="standart__all__textimg">
+          <div class="standart__all__text">
+            <h2 class="standart__title">Високі стандарти розробки</h2>
+            <p class="standart__text">
+              Lorem Ipsum - це текст-"риба", що часто використовується в пресі
+              та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
+              латиниці з початку XVI ст.
+            </p>
+            <a href="" class="standart__link">Детальніше про компанію</a>
+          </div>
+          <img
+            srcset="./img/standarts@1x.png 1x, ./img/standarts@2x.png 2x"
+            src="./img/standarts@1x.png"
+            alt="standart"
+            class="standart__img"
+          />
+        </div>
+
         <ul class="standart__list">
           <li class="standart__item">
             <div class="standart__item__div">
@@ -326,6 +346,14 @@
               class="our__projects__img"
             />
           </li>
+          <li class="our__projects__item">
+            <img
+              srcset="./img/our projects@1x.png 1x, ./img/our projects@2x.png 2x"
+              src="./img/our projects@1x.png"
+              alt="our project"
+              class="our__projects__img"
+            />
+          </li>
         </ul>
         <button type="button" class="services__button">Всі послуги</button>
       </div>
@@ -365,8 +393,7 @@
           <button type="button" class="subscribe__button">Підписатися</button>
         </div>
         <p class="subscribe__mini__text">
-          Ми не шлем спам, і не передаємо нікому ваші даніМи не шлем спам, і не
-          передаємо нікому ваші дані
+          Ми не шлем спам, і не передаємо нікому ваші дані
         </p>
       </div>
     </section>

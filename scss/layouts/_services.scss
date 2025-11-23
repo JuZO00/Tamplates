@@ -12,16 +12,30 @@
   flex-direction: column;
   gap: 27px;
   margin-bottom: 55px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .services__item {
   display: flex;
   width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 353px;
+    display: flex;
+    align-items: center;
+  }
 }
 .services__div__text {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   margin-top: 46px;
+  @media screen and (min-width: 768px) {
+    margin-left: 52px;
+  }
 }
 .services__item__text {
   text-align: left;
@@ -35,6 +49,13 @@
   fill: $button-blue-4985ff;
   margin-right: 52px;
   margin-top: 35px;
+  @media screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: block;
+  }
 }
 .services__button {
   background: $button-blue-4985ff;
