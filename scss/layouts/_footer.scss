@@ -1,13 +1,28 @@
-.footer__contact__list {
+.footer__all__div {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+  @media screen and (min-width: 768px) {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  @media screen and (min-width: 1200px) {
+    gap: 43px;
+  }
+}
+.footer__contact__list {
+  display: flex;
+  justify-content: center;
 }
 .footer__contact__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+  } 
 }
 .footer__contact__div {
   display: flex;
@@ -39,4 +54,26 @@
   @extend%min-text;
   font-size: 13px;
   color: $grey-999;
+}
+.footer__nav__item {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+.footer__nav__divlink {
+  display: flex;
+  align-items: center;
+}
+.footer__nav__link {
+  @extend%min-text;
+  color: $grey-999;
+}
+.footer__nav__icon {
+  width: 4.81px;
+  height: 8.99px;
+  margin-right: 12px;
 }

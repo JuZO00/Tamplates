@@ -1,26 +1,41 @@
 .specialization {
-  padding-bottom: 1560px;
+  padding-bottom: 1580px;
   margin-bottom: 85px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 335px;
+  }
 }
 .specialization__div {
   background-color: $specialization-c4c4c4;
   background: linear-gradient(90deg, #504dc2 0%, #5f12d0 100%);
   padding-top: 60px;
   padding-bottom: 160px;
+  @media screen and (min-width: 1200px) {
+    height: 490px;
+  }
 }
-.specialization__div__buttandul {
+.specialization__div__title {
   position: relative;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .specialization__list {
   position: absolute;
   display: block;
-  top: 121px;
+  top: 257px;
   left: 50%;
   transform: translate(-50%);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 60px;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 .specialization__img {
   margin-bottom: 25px;

@@ -35,6 +35,10 @@
 .specialization__title {
   @extend%title-text;
   margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    width: 540px;
+    text-align: start;
+  }
 }
 .specialization__pretitle {
   @extend%specializ-title;
@@ -61,6 +65,11 @@
   margin-bottom: 20px;
 }
 .footer__contact__title {
+  @extend%specializ-title;
+  color: $black-000;
+  margin-bottom: 35px;
+}
+.footer__nav__title {
   @extend%specializ-title;
   color: $black-000;
   margin-bottom: 35px;

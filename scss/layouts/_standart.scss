@@ -20,10 +20,11 @@
 }
 .standart__img {
   display: none;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     display: block;
-    width: 420px;
-    height: 320px;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 160px;
   }
 }
 .standart__text {

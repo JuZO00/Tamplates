@@ -18,23 +18,32 @@
       url(./../img/back\ videosec@2x.png);
   }
   margin-bottom: 250px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 70px;
+    padding-bottom: 420px;
+  }
 }
 .videos__text {
   @extend%min-text;
 }
+.videos__div {
+  position: relative;
+}
 .videos__div__img {
   position: absolute;
   display: block;
-  top: 388px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 220px;
+  left: 0;
 }
 .videos__img {
-  position: relative;
   width: 100%;
   height: 230px;
   @media screen and (min-width: 768px) {
     height: 330px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 970px;
+    height: 430px;
   }
 }
 .videos__play {
@@ -47,5 +56,9 @@
   @media screen and (min-width: 768px) {
     width: 250px;
     height: 85px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    height: 100px;
   }
 }
